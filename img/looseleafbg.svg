@@ -1,0 +1,42 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #1630bc;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #d92021;
+        stroke-width: 11px;
+      }
+
+      .cls-3 {
+        stroke: #f9e4e4;
+      }
+    </style>
+  </defs>
+  <title>Resume-ME</title>
+  <line class="cls-1" y1="181" x2="1277" y2="181"/>
+  <line class="cls-1" x1="5" y1="260.5" x2="1282" y2="260.5"/>
+  <line class="cls-1" x1="-3" y1="341.5" x2="1274" y2="341.5"/>
+  <line class="cls-1" y1="424" x2="1277" y2="424"/>
+  <line class="cls-1" x1="5" y1="503.5" x2="1282" y2="503.5"/>
+  <line class="cls-1" x1="-3" y1="584.5" x2="1274" y2="584.5"/>
+  <line class="cls-1" y1="666" x2="1277" y2="666"/>
+  <line class="cls-1" x1="5" y1="745.5" x2="1282" y2="745.5"/>
+  <line class="cls-1" x1="-3" y1="826.5" x2="1274" y2="826.5"/>
+  <line class="cls-1" x1="-3" y1="908.5" x2="1274" y2="908.5"/>
+  <line class="cls-1" x1="-3" y1="988.5" x2="1274" y2="988.5"/>
+  <line class="cls-2" x1="167.5" y1="0.5" x2="164.5" y2="1034"/>
+  <circle class="cls-3" cx="78.5" cy="293.5" r="22"/>
+  <circle class="cls-3" cx="78.5" cy="874.5" r="22"/>
+</svg>

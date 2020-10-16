@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="heart.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <meta charset="utf-8">
+    <title>Marho</title>
+  </head>
+  <body class ="container-fluid main">
+      <div id="app" class="container-fluid bod">
+
+      <div class="row">
+
+        <div class="col-8 intro-head">
+
+          <h1 class="display-2 text-responsive">Marho Eradiri</h1>
+          <h2 v-if='menu[0].active == false'class="display-3 text-responsive">Web Developer / Content Manager</h2>
+          <h3 v-if='menu[0].active == false'class="display-4 text-responsive spec">Special Olympics International</h3>
+          <h2 v-if='menu[0].active == true'class="display-3 text-responsive headspec">Meradiri@gmail.com </h2>
+          <h3 v-if='menu[0].active == true'class="display-4 text-responsive spec headspec"><a target="_blank" href="resume.pdf">Download Full Resume</a></h3>
+
+          <nav  class="nav tune3">
+            <a v-for="item in menu" v-on:click="resumejump(item.name)"v-bind:class="{active: item.active == true, 'disabled': item.active == true}"class="nav-link text-responsive" href="#">{{ item.name }}</a>
+
+
+
+          </nav>
+
+        </div>
+        <div class="col-4">
+
+          <img  v-on:click="sealClick()" class="img-fluid" :src="seal" alt="gmuseal" >
+
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div v-if="seal == 'img/gmuseal.svg' " class="col intro-bod intro-bod12">
+
+
+        <h1 class="display-2 text-responsive spec2">George Mason University, May '17</h1>
+        <h2 class="display-3 text-responsive tune1 spec3">Bachelor of Science in Psychology (Human Factors and Applied Cognition)</h2>
+        <h3 class="display-4 text-responsive tune2 spec3">Computer Science: 39 credits completed</h3>
+
+        <div class="row tune4">
+          <div class="col">
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="img/authorised.svg" alt="canadausaseal">
+          </div>
+          <div class="col">
+          </div>
+
+
+        </div>
+      </div>
+      <div v-if="getActive() == 'Work Experience' " class="col intro-bod13" >
+        <div class="tuneJob"v-for="job in menu[0].jobs" >
+          <h1 class="display-2 text-responsive strongTune">{{ job.organization }}</h1>
+          <h2 class="display-3 text-responsive tune5">{{ job.position }} {{ job.dates }}</h2>
+          <h3 class="display-4 text-responsive tune2"></h3>
+
+        </div>
+      </div>
+      <div v-if="getActive() == 'Skills' " class="col intro-bod14">
+        <div class="tuneSkill"v-for="skill in menu[1].skills" >
+          <ul>
+            <li class="display-3 text-responsive tune5">{{ skill }}</li>
+          </ul>
+        </div>
+        <div class="row tune4">
+          <div class="col">
+          </div>
+          <div class="col">
+          </div>
+          <div class="col">
+            <img v-on:click="language()" class="img-fluid" src="img/languages.svg" alt="canadausaseal">
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <div v-if="getActive() == 'Projects' " class="col intro-bod">
+        <div class="tuneProject"v-for="work in menu[2].projects" >
+          <h1 class="display-2 text-responsive"><a v-bind:href="work.url" target="_blank">{{ work.name }}</a></h1>
+
+        </div>
+      </div>
+
+
+      </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/myvue.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

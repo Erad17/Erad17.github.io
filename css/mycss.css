@@ -1,0 +1,176 @@
+html,body{
+  width:100%;
+  height: 100%;
+}
+  .main{
+    background-image: url('../img/looseleafbg.svg');
+    background-repeat-y: repeat;
+    background-size: cover;
+    width:inherit;
+    height: inherit;
+
+
+  }
+  .bod{
+    padding-left:15.4vw;
+  }
+  @media (min-width: 630px) and (max-width:940px )  {
+  .bod {
+    padding-left:16.6vw;
+  }
+  .tuneProject{
+    padding-bottom:4vw!important;
+    position:relative;
+    top:4vw;
+    left:1vw;
+  }
+  .tuneJob{
+    padding-bottom:13vw!important;
+    position: relative;
+    top: 6vw;
+  }
+  .tuneSkill{
+    padding-bottom:4vw!important;
+    position: relative;
+    top:2vw;
+  }
+  .intro-bod12{
+    bottom:2vw!important;
+    position: relative;
+    top: 4vw;
+  }
+  .intro-bod13{
+    bottom:3.4vw!important;
+
+  }
+  .intro-bod14{
+    top:1vw;
+
+  }
+}
+
+  .text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+    }
+    @media (min-width: 455px)and (max-width: 899px)  {
+    .text-responsive{
+      font-size:3vw;
+
+    }
+  }
+    @media (min-width: 455px)and (max-width: 764px)  {
+
+    .headspec{
+      padding-top:1.7vw;
+    }
+    }
+    .intro-head{
+      padding-top:3vw;
+    }
+    .intro-bod{
+      bottom:0.8vw;
+    }
+    .tune1{
+      padding-top:2.7vw;
+    }
+    .tune2{
+      padding-top:2.3vw;
+    }
+    .tune3{
+      padding-top:1.7vw;
+      width:72vw;
+      padding-bottom:1.5vw;
+    }
+    @media (min-width: 455px)and (max-width: 765px)  {
+    .tune3 {
+      padding-top:0.2vw;
+      width:75vw;
+    }
+    .spec{
+      width:57vw;
+    }
+    .spec2{
+      width:67vw;
+      padding-top:5.2vw;
+    }
+    .spec3{
+      width:79vw;
+    }
+
+  }
+  @media (min-width: 1624px) and (max-width:1920px) {
+    .spec2{
+      padding-top:1.5vw;
+    }
+    .strongTune{
+      padding-top:1vw;
+    }
+    .tuneJob{
+      height: 12.4vw !important;
+    }
+    .tuneSkill{
+      padding-top:1.2vw;
+    }
+    .tuneProject{
+      padding-top:1vw;
+    }
+  }
+
+    .tune5{
+      width:111%;
+    }
+    .tuneusa{
+      padding-top:2vw;
+    }
+    .tune4{
+      padding-top:2.4vw;
+    }
+    .active,.disabled{
+      color:black!important;
+    }
+    .tuneText{
+      position:relative;
+      left:22vw
+    }
+    .strongTune{
+      font-weight: 350;
+    }
+    .tuneJob{
+      height: 12vw;
+    }
+    @media (min-width: 455px)and (max-width: 764px)  {
+      .tuneJob{
+        width:71vw;
+        height:18vw;
+        padding-top:3.4vw;
+      }
+      .tuneSkill{
+        padding-top:8vw;
+        height:8vw;
+      }
+      .tuneProject{
+        height:6vw;
+        padding-top:7vw;
+      }
+    }
+    @media (min-width: 1050px)  {
+      .intro-bod12{
+        top:4vw;
+      }
+      .tuneSkill{
+        padding-top:1vw;
+        position:relative;
+        bottom:1vw;
+      }
+      .tune3{
+        padding-top:0;
+      }
+
+}
+
+    .tuneSkill{
+      padding-bottom:1.2vw;
+    }
+    .tuneProject{
+      padding-bottom:2vw;
+    }
