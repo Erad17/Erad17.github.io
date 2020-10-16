@@ -158,6 +158,15 @@ html,body{
       .intro-bod12{
         top:4vw;
       }
+      .intro-bod13{
+        top:2vw;
+      }
+      .intro-bod14{
+        bottom:4.4vw;
+      }
+      .intro-bod{
+        bottom:2vw;
+      }
       .tuneSkill{
         padding-top:1vw;
         position:relative;
