@@ -23,7 +23,7 @@
           <h3 v-if='menu[0].active == true'class="display-4 text-responsive spec headspec"><a target="_blank" href="resume.pdf">Download Full Resume</a></h3>
 
           <nav  class="nav tune3">
-            <a v-for="item in menu" v-on:click="resumejump(item.name)"v-bind:class="{active: item.active == true, 'disabled': item.active == true}"class="nav-link text-responsive" href="#">{{ item.name }}</a>
+            <a v-cloak v-for="item in menu" v-on:click="resumejump(item.name)"v-bind:class="{active: item.active == true, 'disabled': item.active == true}"class="nav-link text-responsive" href="#">{{ item.name }}</a>
 
 
 
@@ -60,16 +60,16 @@
       </div>
       <div v-if="getActive() == 'Work Experience' " class="col intro-bod13" >
         <div class="tuneJob"v-for="job in menu[0].jobs" >
-          <h1 class="display-2 text-responsive strongTune">{{ job.organization }}</h1>
-          <h2 class="display-3 text-responsive tune5">{{ job.position }} {{ job.dates }}</h2>
-          <h3 class="display-4 text-responsive tune2"></h3>
+          <h1 v-cloak class="display-2 text-responsive strongTune">{{ job.organization }}</h1>
+          <h2 v-cloak class="display-3 text-responsive tune5">{{ job.position }} {{ job.dates }}</h2>
+          <h3 v-cloak class="display-4 text-responsive tune2"></h3>
 
         </div>
       </div>
       <div v-if="getActive() == 'Skills' " class="col intro-bod14">
         <div class="tuneSkill"v-for="skill in menu[1].skills" >
           <ul>
-            <li class="display-3 text-responsive tune5">{{ skill }}</li>
+            <li v-cloak class="display-3 text-responsive tune5">{{ skill }}</li>
           </ul>
         </div>
         <div class="row tune4">
@@ -88,7 +88,7 @@
       </div>
       <div v-if="getActive() == 'Projects' " class="col intro-bod">
         <div class="tuneProject"v-for="work in menu[2].projects" >
-          <h1 class="display-2 text-responsive"><a v-bind:href="work.url" target="_blank">{{ work.name }}</a></h1>
+          <h1 v-cloak class="display-2 text-responsive"><a v-bind:href="work.url" target="_blank">{{ work.name }}</a></h1>
 
         </div>
       </div>
