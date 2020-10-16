@@ -17,7 +17,7 @@ html,body{
   }
   @media (min-width: 630px) and (max-width:940px )  {
   .bod {
-    padding-left:16.6vw;
+    padding-left:17.5vw;
   }
   .tuneProject{
     padding-bottom:4vw!important;
@@ -146,12 +146,12 @@ html,body{
         padding-top:3.4vw;
       }
       .tuneSkill{
-        padding-top:8vw;
+        padding-top:5vw;
         height:8vw;
       }
       .tuneProject{
         height:6vw;
-        padding-top:7vw;
+        padding-top:5vw;
       }
     }
     @media (min-width: 1050px)  {
