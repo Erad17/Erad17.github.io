@@ -4,6 +4,7 @@ html,body{
 }
 .nav-link{
   z-index:1;
+}
 [v-cloak] { display: none; }
   .main{
     background-image: url('../img/looseleafbg.svg');
