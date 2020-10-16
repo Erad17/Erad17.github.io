@@ -53,7 +53,7 @@ html,body{
   .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
     }
-    @media (min-width: 455px)and (max-width: 899px)  {
+    @media (min-width: 320px)and (max-width: 899px)  {
     .text-responsive{
       font-size:3vw;
 
