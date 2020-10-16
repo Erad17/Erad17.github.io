@@ -155,9 +155,7 @@ html,body{
       }
     }
     @media (min-width: 1050px)  {
-      .intro-bod12{
-        bottom:3vw;
-      }
+    
       .intro-bod13{
         bottom:2vw;
       }
