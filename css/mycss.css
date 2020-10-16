@@ -18,6 +18,22 @@ html,body{
   .bod{
     padding-left:15.4vw;
   }
+  @media (min-width: 600px) and (max-width:620px )  {
+    .bod{
+      padding-left:23vw;
+    }
+    .tuneProject{
+    padding-bottom:1vw;
+    position:relative;
+    bottom:2vw;
+    }
+    .tuneSkill{
+    padding-top:1.2vw;
+    position:relative;
+    bottom:2vw;
+    height:7vw;
+    }
+}
   @media (min-width: 630px) and (max-width:940px )  {
   .bod {
     padding-left:17.5vw;
