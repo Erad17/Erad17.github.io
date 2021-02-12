@@ -1,7 +1,7 @@
 var jobs =[
   {"organization":"Special Olympics International",
   "position":"Web Developer / Content Manager",
-  "dates":"Jun '19 - xx",},
+  "dates":"Jun '19 - Mar '21",},
 
   {"organization":"American Road Builders Transportation Assn.",
   "position":"Web Developer / Digital Marketing spec.",
